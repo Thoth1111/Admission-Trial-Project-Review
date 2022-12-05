@@ -1,7 +1,6 @@
 body {
   padding: 1rem;
   background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000");
-
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -25,6 +24,7 @@ body {
   font-weight: normal;
   text-align: center;
 }
+
 option {
   padding: 10px;
 }
@@ -54,6 +54,7 @@ form {
   flex-direction: column;
   padding: 2rem;
 }
+
 fieldset {
   display: flex;
   flex-direction: column;
@@ -101,6 +102,7 @@ button {
   flex-direction: column;
   gap: 3px;
 }
+
 .text_area {
   margin: 0px;
 }
