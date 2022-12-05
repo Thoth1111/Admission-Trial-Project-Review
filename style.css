@@ -15,7 +15,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #description {
@@ -104,7 +104,7 @@ button {
 }
 
 .text_area {
-  margin: 0px;
+  margin: 0;
 }
 
 textarea {
@@ -119,11 +119,11 @@ textarea {
 @media screen and (max-width: 600px) {
   .main {
     width: 100%;
-    margin: 0px 1rem;
+    margin: 0 1rem;
   }
 
   body {
-    padding: 0rem;
+    padding: 0;
   }
 
   form {
