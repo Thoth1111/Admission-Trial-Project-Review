@@ -1,0 +1,140 @@
+body {
+  padding: 1rem;
+  background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000");
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  width: 70%;
+  height: 100vh;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#description {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+option {
+  padding: 10px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.radio_opts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.radio_block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+form {
+  background-image: url("https://wallpaper.dog/large/20489485.jpg");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 1rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#dropdown {
+  padding: 10px;
+}
+
+.checks {
+  display: flex;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+button {
+  padding: 10px;
+  background-color: #37af65;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.check_opts {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.check_block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.text_area {
+  margin: 0;
+}
+
+textarea {
+  padding: 10px;
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    margin: 0 1rem;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  form {
+    padding: 0.5rem;
+  }
+
+  #title {
+    font-size: 14px;
+  }
+
+  #description {
+    font-size: 12px;
+  }
+}
