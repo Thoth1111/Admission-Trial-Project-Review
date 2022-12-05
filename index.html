@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Fork Me! FCC: Test Suite Template</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <main class="main">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <form>
+        <fieldset class="fieldset">
+          <div class="input">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" required />
+          </div>
+
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email Address" id="email" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"/>
+          </div>
+
+          <div class="input">
+            <label for="number">Contact</label>
+            <input type="text" placeholder="Phone Number" id="Number" required pattern="[0-9]"/>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="radio_block">
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+
+            <div class="radio_opts">
+              <label class="radios">
+                <input type="radio" name="radio_button" />Definitely!!
+              </label>
+
+              <label class="radios">
+                <input type="radio" name="radio_button" />Umm, maybe?
+              </label>
+
+              <label class="radios">
+                <input type="radio" name="radio_button" />Nope!
+              </label>
+            </div>
+          </div>
+
+          <div class="select">
+            <label>How would you describe your experience?</label>
+            <select id="dropdown">
+              <option value="Happy with service">Happy with service</option>
+              <option value="Unhappy with service">Unhappy with service</option>
+            </select>
+          </div>
+
+          <div class="checkbox_block">
+            <label for="checkbox">What would you like to see improved? (Check all that apply)</label>
+
+            <div class="check_opts">
+              <div class="checks">
+                <label for="frontend">
+                  <input id="frontend" class="checkboxes" type="checkbox" value="frontend"/>frontend</label>
+              </div>
+
+              <div class="checks">
+                <label for="devops">
+                  <input id="devops" class="checkboxes" type="checkbox" value="devops"/>devops</label>
+              </div>
+
+              <div class="checks">
+                <label for="fullstack">
+                  <input id="fullstack" class="checkboxes" type="checkbox" value="fullstack"/>fullstack</label>
+              </div>
+
+              <div class="checks">
+                <label for="backend">
+                  <input id="backend" class="checkboxes" type="checkbox" value="backend"/>backend</label>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="text_area">Any suggestions?</h4>
+          <textarea placeholder="Enter your comment here" rows="5" col="20"></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
